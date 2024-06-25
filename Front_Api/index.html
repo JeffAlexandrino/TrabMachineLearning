@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Climatologia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão do Tempo</h1>
+        <form id="weatherForm">
+            <label for="countrySelect">Selecione um país</label>
+            <select id="countrySelect">
+                <option value="Brazil">Brazil</option>
+                <option value="United States">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <label for="dateInput">Selecione uma data</label>
+            <input type="date" id="dateInput">
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="weatherResult" class="weather-result">
+            <!-- Os dados do clima serão inseridos aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

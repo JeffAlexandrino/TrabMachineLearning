@@ -1,5 +1,5 @@
-# TrabMachineLearning
-Projeto Final da matéria de Machine Learning
+# Projeto - Machine Learning
+Projeto Final da matéria de Machine Learning onde buscamos fazer a previsão de temperatura de diferentes países.
 
 ## Integrantes:
 - [Alexandre Hermes](https://github.com/Alexandre200319)
